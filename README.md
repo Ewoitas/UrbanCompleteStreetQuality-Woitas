@@ -17,17 +17,17 @@ Data_Raw: contains unprocessed data files used as variables in analysis
 Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
 > Filtered:<br>
 > - Buildings<br>
-- Trees_Green_Buffer_16th<br>
-- Trees_Green_Buffer_17th<br>
-- Trees_Green_Buffer_Centre<br>
+> - Trees_Green_Buffer_16th<br>
+> - Trees_Green_Buffer_17th<br>
+> - Trees_Green_Buffer_Centre<br>
 
-New:<br>
-- Study_Area_16_Ave_NW
-- Study_Area_16AVENW_Split
-- Study_Area_17_Ave_SE
-- Study_Area_17AVESE_Split
-- Study_Area_Centre_St_North
-- Study_Area_CentreSTN_Split
+> New:<br>
+> - Study_Area_16_Ave_NW
+> - Study_Area_16AVENW_Split
+> - Study_Area_17_Ave_SE
+> - Study_Area_17AVESE_Split
+> - Study_Area_Centre_St_North
+> - Study_Area_CentreSTN_Split
 
 **Coordinate Reference System:** NAD 1983 3TM 114
 
