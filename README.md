@@ -11,10 +11,10 @@ The block space of each Urban Boulevard was assessed, and was broken into 0.5m s
 **Folder Structure:**
 
 Folder Name: Data_Woitas<br>
-Data_Raw: contains unprocessed data files used as variables in analysis
+-> Data_Raw: contains unprocessed data files used as variables in analysis
 - Impervious_Surface_2021<br>
 
-Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
+-> Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
 > Filtered:<br>
 > - Buildings: contains building polygons along the three Urban Boulevards<br>
 > - Trees_Green_Buffer_16th: point layer for trees acting as green buffers (16th Avenue NW)<br>
