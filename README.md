@@ -20,12 +20,12 @@ Filtered:<br>
 - Trees_Green_Buffer_17th<br>
 - Trees_Green_Buffer_Centre<br>
 New:<br>
-- Study_Area_16_Ave_NW<br>
-- Study_Area_16AVENW_Split<br>
-- Study_Area_17_Ave_SE<br>
-- Study_Area_17AVESE_Split<br>
-- Study_Area_Centre_St_North<br>
-- Study_Area_CentreSTN_Split<br>
+- Study_Area_16_Ave_NW
+- Study_Area_16AVENW_Split
+- Study_Area_17_Ave_SE
+- Study_Area_17AVESE_Split
+- Study_Area_Centre_St_North
+- Study_Area_CentreSTN_Split
 
 
   Coordinate Reference System: NAD 1983 3TM 114
