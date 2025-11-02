@@ -33,12 +33,16 @@ Folder Name: Data_Woitas
 
 City of Calgary. (2016). Calgary Bikeways [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Transportation-Transit/Calgary-Bikeways/jjqk-9b73/about_data
+  
 City of Calgary. (2018). Public Trees [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
-  https://data.calgary.ca/Environment/Public-Trees/tfs4-3wwa/about_data 
+  https://data.calgary.ca/Environment/Public-Trees/tfs4-3wwa/about_data
+  
 City of Calgary. (2020-b). Buildings [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Base-Maps/Buildings/uc4c-6kbd/about_data
+  
 City of Calgary. (2020-c). Street Centerline [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5/about_data
+  
 City of Calgary. (2022). Impervious Surface 2021 [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Environment/Impervious-Surface-2021/rgsu-3v7u/about_data
 
