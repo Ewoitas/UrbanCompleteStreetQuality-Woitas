@@ -58,4 +58,11 @@ City of Calgary. (2022). Impervious Surface 2021 [Data set]. City of Calgary Ope
 - GREEN_BUFFER: whether or not there is a green buffer between the road and walking space adjacent to the segment
 - SIDEWALK_WIDTH: mode value of sidewalk width per block (metres)
 
-
+**Methods Summary:**
+- Wide Sidewalks (2.5m or more): filtered Impervious_Surfaces_2021 to only sidewalks. Buffered the 0.5m segment, used the Summarize Within tool to capture SIDEWALK_AREA. Tied it back to the line segment, and divided SIDEWALK_AREA by Shape_Length to get a sidewalk width. Selected the mode value from each block for most common sidewalk width.
+- Complete Walking Connections: based on the same analysis as the previous criteria. Mode sidewalk of zero = incomplete walking connection.
+- Unimpacted Pedestrian Travel: highlighted segments where driveways impacted sidewalk based on sattellite imagery, field IMPACTED =  "Yes".
+- Green Buffering: used Public_Trees layer and buffered from sidewalk to road segment to select trees acting as green buffers. Copied selected features into a new layer and buffered those points into a polygon. Used buffer from road to determine where GREEN_BUFFER = "Yes".
+- Integrated Land Use: Used Buildings layer to indentify buildings along the boulevard, and Impervious_Surfaces_2021 to identify pavevd driving spaces. Buffered from road segment, and used Summarize Within tool on both layers. If only buildings found within buffer, INTEGRATED_LU = "Yes".
+- Dedicated Space for Rapid Transit: highlighted segments where dedicated space was found based on sattellite imagery, field HOV =  "Yes".
+- Dedicated Bike Infrastructure: used Calgary_Bikeways layer and filtered to "Cycle Tracks". Determined if bikeways and road segment intersected (none did so a new field was not created).
