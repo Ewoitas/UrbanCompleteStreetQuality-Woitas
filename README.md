@@ -14,20 +14,31 @@ Folder Name: Data_Woitas<br>
 Data_Raw: contains unprocessed data files used as variables in analysis
 - Impervious_Surface_2021<br>
 
-Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
+Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
 > Filtered:<br>
-> - Buildings<br>
-> - Trees_Green_Buffer_16th<br>
-> - Trees_Green_Buffer_17th<br>
-> - Trees_Green_Buffer_Centre<br>
+> - Buildings: contains building polygons along the three Urban Boulevards<br>
+> - Trees_Green_Buffer_16th: point layer for trees acting as green buffers (16th Avenue NW)<br>
+> - Trees_Green_Buffer_17th: point layer for trees acting as green buffers (17th Avenue SE)<br>
+> - Trees_Green_Buffer_Centre: point layer for trees acting as green buffers (Centre Street North)<br>
 
 > New:<br>
-> - Study_Area_16_Ave_NW
-> - Study_Area_16AVENW_Split
-> - Study_Area_17_Ave_SE
-> - Study_Area_17AVESE_Split
-> - Study_Area_Centre_St_North
-> - Study_Area_CentreSTN_Split
+> - Study_Area_16_Ave_NW: (line) represents study area / block faces, contains mode sidewalk width value
+> - Study_Area_16AVENW_Split: (line) block faces split into 0.5m segments, contains data on sidewalks, sidewalk impacts, integrated land use, green buffering, and dedicated lanes
+> - Study_Area_17_Ave_SE: (line) represents study area / block faces, contains mode sidewalk width value
+> - Study_Area_17AVESE_Split: (line) block faces split into 0.5m segments, contains data on sidewalks, sidewalk impacts, integrated land use, green buffering, and dedicated lanes
+> - Study_Area_Centre_St_North: (line) represents study area / block faces, contains mode sidewalk width value
+> - Study_Area_CentreSTN_Split: (line) block faces split into 0.5m segments, contains data on sidewalks, sidewalk impacts, integrated land use, green buffering, and dedicated lanes
+
+**Field Descriptions for 'New' files in the Data_Processed folder:**<br>
+- Has_MAX_BRT: whether or not a MAX Bus line runs along the road
+- SIDEWALK_AREA: area of sidewalk measured within 0.5m segment (metres squared)
+- HOV: whether or not the road segment has a marked High Occupancy Vehicle (HOV) lane
+- IMPACTED: whether or not the walking segment is impacted by a driveway
+- BLOCK_ID: Id of block the segment is associated with (for joining back)
+- INTEGRATED_LU: whether or not the segment is associated with integrated land use
+- GREEN_BUFFER: whether or not there is a green buffer between the road and walking space adjacent to the segment
+- SIDEWALK_WIDTH: mode value of sidewalk width per block (metres)
+- Shape_Lenth: length (metres)
 
 **Coordinate Reference System:** NAD 1983 3TM 114
 
@@ -48,15 +59,7 @@ City of Calgary. (2020-c). Street Centerline [Data set]. City of Calgary Open Da
 City of Calgary. (2022). Impervious Surface 2021 [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Environment/Impervious-Surface-2021/rgsu-3v7u/about_data
 
-**Field Descriptions for new files in the Data_Processed folder:**<br>
-- Has_MAX_BRT: whether or not a MAX Bus line runs along the road
-- SIDEWALK_AREA: area of sidewalk measured within 0.5m segment (metres squared)
-- HOV: whether or not the road segment has a marked High Occupancy Vehicle (HOV) lane
-- IMPACTED: whether or not the walking segment is impacted by a driveway
-- BLOCK_ID: Id of block the segment is associated with (for joining back)
-- INTEGRATED_LU: whether or not the segment is associated with integrated land use
-- GREEN_BUFFER: whether or not there is a green buffer between the road and walking space adjacent to the segment
-- SIDEWALK_WIDTH: mode value of sidewalk width per block (metres)
+
 
 **Methods Summary:**
 - Wide Sidewalks (2.5m or more): filtered Impervious_Surfaces_2021 to only sidewalks. Buffered the 0.5m segment, used the Summarize Within tool to capture SIDEWALK_AREA. Tied it back to the line segment, and divided SIDEWALK_AREA by Shape_Length to get a sidewalk width. Selected the mode value from each block for most common sidewalk width.
