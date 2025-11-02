@@ -44,7 +44,9 @@ Folder Name: Data_Woitas<br>
 
 **Data Sources / Acknowledgments:**
 
-All data used for this analysis was taken from the City of Calgary's Open Data Portal
+*All data used for this analysis was taken from the City of Calgary's Open Data Portal*
+
+City of Calgary. (n.d.). City of Calgary’s Open Data Portal. Open Calgary. https://data.calgary.ca/ 
 
 City of Calgary. (2016). Calgary Bikeways [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Transportation-Transit/Calgary-Bikeways/jjqk-9b73/about_data
