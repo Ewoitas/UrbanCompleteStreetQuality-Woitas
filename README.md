@@ -17,13 +17,6 @@ The block space of each Urban Boulevard was assessed, and was broken into 0.5m s
 **Folder Structure:**
 
 Folder Name: Data_Woitas<br>
--> Data_Raw: contains unprocessed data files (CSV) used as variables in analysis
-- Buildings
-- Calgary_Bikeways
-- Impervious_Surface_2021
-- Public_Trees
-- Street_Centreline
-
 -> Data_Processed: contains data files (CSV) that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
 > Filtered:<br>
 > - Buildings: contains building polygons along the three Urban Boulevards<br>
