@@ -42,7 +42,7 @@ Folder Name: Data_Woitas<br>
 
 **Coordinate Reference System:** NAD 1983 3TM 114
 
-**Data Sources:**
+**Data Sources / Acknowledgments:**
 
 All data used for this analysis was taken from the City of Calgary's Open Data Portal
 
