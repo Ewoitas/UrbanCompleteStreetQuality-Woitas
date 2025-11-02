@@ -1,10 +1,10 @@
 # UrbanCompleteStreetQuality-Woitas
 
-Created by: Emily Woitas (emily.woitas@ucalgary.ca)
-Creation Date: October 31, 2025
-Instructor: Victoria Fast
-Institution: University of Calgary
-Geographic Location of Analysis: Calgary, Alberta, Canada
+Created by: Emily Woitas (emily.woitas@ucalgary.ca)<br>
+Creation Date: October 31, 2025<br>
+Instructor: Victoria Fast<br>
+Institution: University of Calgary<br>
+Geographic Location of Analysis: Calgary, Alberta, Canada<br>
 
 **Project Overview:**
 
