@@ -1,12 +1,18 @@
 # UrbanCompleteStreetQuality-Woitas
 
+Created by: Emily Woitas (emily.woitas@ucalgary.ca)
+Creation Date: October 31, 2025
+Instructor: Victoria Fast
+Institution: University of Calgary
+Geographic Location of Analysis: Calgary, Alberta, Canada
+
 **Project Overview:**
 
 In this project, the "Complete Street Quality" of three primary transit Urban Boulevards in Calgary was assessed. These Urban Boulevards were assessed based on metrics of Walkability, Urban Realm Quality, and Multimodality. These metrics were converted into qualtifiable attributes which include the following: 
 
 Wide Sidewalks (2.5m or more), Complete Walking Connections, Unimpacted Pedestrian Travel, Green Buffering, Integrated Land Use, Dedicated Space for Rapid Transit, and Dedicated Bike Infrastructure. 
 
-The block space of each Urban Boulevard was assessed, and was broken into 0.5m segments for analysis. These segments were then averaged for each criteria, which were again averaged to produce a final "Completeness" score. This analysis assesses the sustainability of Calgary based on how well Urban Boulevards are designed to suit the needs of pedestrians, cyclists, and transit users, in addition to how well these streets have been retrofitted to conform to policy guidance.
+The block space of each Urban Boulevard was assessed, and was broken into 0.5m segments for analysis. These segments were then averaged for each criteria, which were again averaged to produce a final score of "Completeness". This analysis assesses the sustainability of Calgary based on how well Calgary's Urban Boulevards accomodate the needs of pedestrians, cyclists, and transit users. Additionally, this analysis looks to determine how effectively these streets have been retrofitted to conform to policy guidance set by the City of Calgary.
 
 **Folder Structure:**
 
