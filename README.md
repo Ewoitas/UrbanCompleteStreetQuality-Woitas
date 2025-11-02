@@ -17,14 +17,14 @@ The block space of each Urban Boulevard was assessed, and was broken into 0.5m s
 **Folder Structure:**
 
 Folder Name: Data_Woitas<br>
--> Data_Raw: contains unprocessed data files used as variables in analysis
+-> Data_Raw: contains unprocessed data files (CSV) used as variables in analysis
 - Buildings
 - Calgary_Bikeways
 - Impervious_Surface_2021
 - Public_Trees
 - Street_Centreline
 
--> Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
+-> Data_Processed: contains data files (CSV) that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
 > Filtered:<br>
 > - Buildings: contains building polygons along the three Urban Boulevards<br>
 > - Trees_Green_Buffer_16th: point layer for trees acting as green buffers (16th Avenue NW)<br>
@@ -38,6 +38,8 @@ Folder Name: Data_Woitas<br>
 > - Study_Area_17AVESE_Split: (line) block faces split into 0.5m segments, contains data on sidewalks, sidewalk impacts, integrated land use, green buffering, and dedicated lanes
 > - Study_Area_Centre_St_North: (line) represents study area / block faces, contains mode sidewalk width value
 > - Study_Area_CentreSTN_Split: (line) block faces split into 0.5m segments, contains data on sidewalks, sidewalk impacts, integrated land use, green buffering, and dedicated lanes
+
+-> Results: contains xlsx file Analysis_Results, which shows how final "Completeness" value was calculated
 
 **Field Descriptions for 'New' files in the Data_Processed folder:**<br>
 - Has_MAX_BRT: whether or not a MAX Bus line runs along the road
