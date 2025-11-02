@@ -49,14 +49,14 @@ City of Calgary. (2020-c). Street Centerline [Data set]. City of Calgary Open Da
 City of Calgary. (2022). Impervious Surface 2021 [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Environment/Impervious-Surface-2021/rgsu-3v7u/about_data
 
-Field Descriptions for new files in the Data_Processed folder:<br>
+**Field Descriptions for new files in the Data_Processed folder:**<br>
 - Has_MAX_BRT: whether or not a MAX Bus line runs along the road
-- SIDEWALK_AREA: area of sidewalk measured within 0.5m segment (m2)
+- SIDEWALK_AREA: area of sidewalk measured within 0.5m segment (metres squared)
 - HOV: whether or not the road segment has a marked High Occupancy Vehicle (HOV) lane
 - IMPACTED: whether or not the walking segment is impacted by a driveway
 - BLOCK_ID: Id of block the segment is associated with (for joining back)
 - INTEGRATED_LU: whether or not the segment is associated with integrated land use
 - GREEN_BUFFER: whether or not there is a green buffer between the road and walking space adjacent to the segment
-- SIDEWALK_WIDTH: mode value of sidewalk width per block
+- SIDEWALK_WIDTH: mode value of sidewalk width per block (metres)
 
 
