@@ -10,11 +10,11 @@ The block space of each Urban Boulevard was assessed, and was broken into 0.5m s
 
 Folder Structure:
 
-Folder Name: Data_Woitas
+Folder Name: Data_Woitas<br>
 Data_Raw: contains unprocessed data files used as variables in analysis
-- Impervious_Surface_2021
-Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
+- Impervious_Surface_2021<br>
 
+Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
 Filtered:<br>
 - Buildings<br>
 - Trees_Green_Buffer_16th<br>
