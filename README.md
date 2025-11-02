@@ -1,6 +1,6 @@
 # UrbanCompleteStreetQuality-Woitas
 
-Project Overview:
+**Project Overview:**
 
 In this project, the "Complete Street Quality" of three primary transit Urban Boulevards in Calgary was assessed. These Urban Boulevards were assessed based on metrics of Walkability, Urban Realm Quality, and Multimodality. These metrics were converted into qualtifiable attributes which include the following: 
 
@@ -8,7 +8,7 @@ Wide Sidewalks (2.5m or more), Complete Walking Connections, Unimpacted Pedestri
 
 The block space of each Urban Boulevard was assessed, and was broken into 0.5m segments for analysis. These segments were then averaged for each criteria to produce a final "Completeness" score. This analysis assesses the sustainability of Calgary based on how well Urban Boulevards are designed to suit the needs of pedestrians, cyclists, and transit users, in addition to how well these streets have been retrofitted to conform to policy guidance.
 
-Folder Structure:
+**Folder Structure:**
 
 Folder Name: Data_Woitas<br>
 Data_Raw: contains unprocessed data files used as variables in analysis
@@ -30,9 +30,9 @@ New:<br>
 - Study_Area_Centre_St_North
 - Study_Area_CentreSTN_Split
 
-Coordinate Reference System: NAD 1983 3TM 114
+**Coordinate Reference System:** NAD 1983 3TM 114
 
-Data Sources:
+**Data Sources:**
 
 City of Calgary. (2016). Calgary Bikeways [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Transportation-Transit/Calgary-Bikeways/jjqk-9b73/about_data
