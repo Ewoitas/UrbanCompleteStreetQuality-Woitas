@@ -15,11 +15,13 @@ Data_Raw: contains unprocessed data files used as variables in analysis
 - Impervious_Surface_2021<br>
 
 Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
+
 Filtered:<br>
 - Buildings<br>
 - Trees_Green_Buffer_16th<br>
 - Trees_Green_Buffer_17th<br>
 - Trees_Green_Buffer_Centre<br>
+
 New:<br>
 - Study_Area_16_Ave_NW
 - Study_Area_16AVENW_Split
