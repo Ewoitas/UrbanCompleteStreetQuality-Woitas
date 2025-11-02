@@ -14,9 +14,9 @@ Folder Name: Data_Woitas<br>
 -> Data_Raw: contains unprocessed data files used as variables in analysis
 - Impervious_Surface_2021<br>
 
-- > Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
+- Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis
 
-Filtered:<br>
+- > Filtered:<br>
 - Buildings<br>
 - Trees_Green_Buffer_16th<br>
 - Trees_Green_Buffer_17th<br>
