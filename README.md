@@ -18,7 +18,11 @@ The block space of each Urban Boulevard was assessed, and was broken into 0.5m s
 
 Folder Name: Data_Woitas<br>
 -> Data_Raw: contains unprocessed data files used as variables in analysis
-- Impervious_Surface_2021<br>
+- Buildings
+- Calgary_Bikeways
+- Impervious_Surface_2021
+- Public_Trees
+- Street_Centreline
 
 -> Data_Processed: contains data files that have been filtered for the analysis, and files with new fields added as a result of the analysis. All CSV files can be converted into feature classes using X/Y fields in the tables.
 > Filtered:<br>
@@ -60,10 +64,10 @@ City of Calgary. (2016). Calgary Bikeways [Data set]. City of Calgary Open Data 
 City of Calgary. (2018). Public Trees [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Environment/Public-Trees/tfs4-3wwa/about_data
   
-City of Calgary. (2020-b). Buildings [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
+City of Calgary. (2020). Buildings [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Base-Maps/Buildings/uc4c-6kbd/about_data
   
-City of Calgary. (2020-c). Street Centerline [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
+City of Calgary. (2020). Street Centerline [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
   https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5/about_data
   
 City of Calgary. (2022). Impervious Surface 2021 [Data set]. City of Calgary Open Data Portal. Retrieved September 24, 2025, from
